@@ -11,6 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
+        style="@style/myTextView"
         app:layout_constraintTop_toBottomOf="@+id/nn"
         tools:layout_editor_absoluteX="167dp" />
 
@@ -26,6 +27,7 @@
 
     <com.mahmood.gitproject.MyBuuton
         android:id="@+id/nn"
+        android:background="@drawable/multi_layer"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:text="mmmmmmm"
